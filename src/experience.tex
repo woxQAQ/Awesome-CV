@@ -1,0 +1,52 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Experience}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+	%---------------------------------------------------------
+	\cventry
+	{后端开发实习生} % Job title
+	{Apecloud Inc(云猿生数据科技有限公司)} % Organization
+	{杭州} % Location
+	{2024.6 - 2025.3} % Date(s)
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item {
+			            负责基于k8s operator 的数据库控制平面的迭代和日常维护，
+			            涵盖生命周期管理，运维管理，备份恢复管理等领域。
+			            该平台基于统一的声明式 API 来支持新数据库引擎的快速接入,
+			            目前已经支持了 mysql, pg, redis, kafka, mongodb, oceanbase 等国内外知名数据库
+			      }
+			\item {
+			            负责控制平面的 DMS(data management system) 模块,
+			            基于平台本身强大的生命周期管理能力，提供开发者日常管理数据库的能力。
+			            包括数据查询，数据库Schema管理，自动SQL审查等
+			      }
+			\item {
+			            参与设计并实现了基于 treesitter 的通用SQL lsp(language server protocol)
+			            提供智能SQL语法补全, 实现了上下文感知智能提示和生产级多数据库连接
+			      }
+			\item {
+			            维护 cr4w(controller runtime for watch)作为平台离线部分,
+			            将部署在数据平面的数据库的元数据同步到控制平面来。
+			            基于 k8s controller 模式，自动 watch 资源的状态写入
+			            控制平面的数据库中，简化在线部分获取托管数据库状态的流程
+			      }
+			% \item {Everything that matters.}
+			% \item {Designed and provisioned the entire infrastructure on the AWS cloud to meet security compliance and acquire a business license for financial services in Korea.}
+			% \item {Continuously improved the infrastructure architecture since launching the service. (currently 3.6 million users)}
+			% \item {Established a standardized base for declarative management of infrastructures and service deployments, enabling operational efficiency and consistency. Over 90\% of AWS resources were all managed through standardized terraform modules. All add-ons and service workloads on the Kubernetes cluster were managed on a GitOps basis with Kustomize and ArgoCD.}
+			% \item {Saved over 30\% of the overall AWS costs by establishing a quarterly purchasing strategiy for RI (Reserved Instance) and SP (Savings Plan) and by introducing Graviton instances.}
+			% \item {Established a core architecture for regulating of outbound DNS traffic in multi-account and multi-VPC environments utilizing AWS Route53 DNS Firewall and FMS. This significantly increased the level of security confidence in the financial sector's segregated environment.}
+			% \item {Introduced Okta employee identity solution in the company, establishing security policies and configuring SSO integration with over 20 enterprise systems including AWS, GitHub, Slack, Google Workspace. Set up a Hub and Spoke architecture, enabling a collaborative account structure with the parent company, Daangn Market.}
+		\end{cvitems}
+	}
+
+	%---------------------------------------------------------
+\end{cventries}

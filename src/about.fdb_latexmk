@@ -1,0 +1,12 @@
+# Fdb version 4
+["pdflatex"] 1768938798.73782 "/home/woxQAQ/Awesome-CV/src/about.tex" "about.pdf" "about" 1768938798.86167 2
+  "/home/woxQAQ/Awesome-CV/src/about.tex" 1768938798.66858 734 ac5cc87333b586107d8e09a0e1120f13 ""
+  "/nix/store/wi5lmb3ba4q7vpbdvjmfrvc7llk8gsf4-texlive-2025-env/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3600344 3b8a290c619268cc6c01b830721204c0 ""
+  "/nix/store/wi5lmb3ba4q7vpbdvjmfrvc7llk8gsf4-texlive-2025-env/share/texmf-var/web2c/texmf.cnf" 1 43847 dfbb172c1f76ad60368e7580ed747547 ""
+  "about.aux" 1768938244.62927 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "about.tex" 1768938798.66858 734 ac5cc87333b586107d8e09a0e1120f13 ""
+  (generated)
+  "about.aux"
+  "about.log"
+  "about.pdf"
+  (rewritten before read)
